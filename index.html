@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticky Note</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Make Your Own Note Here ...</h1>
+    <div id="wrapper">
+      
+      <div class="left">
+        <div class="text-container">
+          <textarea name="" id="" cols="45" rows="15" class="text" placeholder="Enter your note here ..." ></textarea>
+          <button class="btn">Add Note</button>
+        </div>
+
+        <div class="color-container">
+          <input type="color" id="bgColor" value="#FFFFFF">
+          <p>BgColor</p>
+         <input type="color" id="textColor" value="#000000">
+         <p>Text Color</p>
+        </div>    
+      </div>
+
+      <div class="notes">
+      </div>
+    </div>
+
+   
+    <script src="stickyNotes.js"></script>
+    
+  </body>
+</html>
